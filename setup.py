@@ -18,7 +18,8 @@ Created on Fri Feb 20 15:21:59 2015
 
 from setuptools import setup, find_packages
 setup(
-    name = "HelloWorld",
+    name = "setuptest",
     version = "0.1",
     packages = find_packages(),
+    scripts = ['test.py','__init__.py'],
 )
