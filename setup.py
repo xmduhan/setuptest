@@ -21,5 +21,7 @@ setup(
     name = "setuptest",
     version = "0.1",
     packages = find_packages(),
-    scripts = ['test.py','__init__.py'],
+    package_data = {'': ['*.py']},
 )
+
+
