@@ -13,5 +13,5 @@ setup(name='setuptest',
       author='xmduhan',
       author_email='xmduhan@gmail.com',
       url='https://www.python.org/sigs/distutils-sig/',
-      packages=['distutils', 'distutils.command'],
+      packages=['setuptest'],
      )
